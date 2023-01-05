@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="card.css">
+    <title>ADD TO CART</title>
+</head>
+<body>
+    <header>
+        <div class="overlay"></div>
+            <nav>
+                <h2>SHOP</h2>
+                <ul>
+                    <li><a href="index.html"></a>Home</li>
+                    <li><a href="#"></a>About</li>
+                    <li class="cart">
+                        <a href="cart.html">
+                            <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+    <div class="container">
+        <div class="image">
+            <img src="https://www.kayazar.com/images/product_gallery/1649727170_Absolutely-not-T-shirts-007-grey.webp" width="250px" height="250px" alt="thsirt1">
+            <h3>Grey Tshirt</h3>
+            <h3>$15,00</h3>
+            <a class="add-cart cart2" href="#">Add Cart</a>
+            <input type="hidden" value="15" />
+        </div>
+
+        <div class="image">
+            <img src="data:image/jpeg;base64,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" width="250px" height="250px" alt="thsirt1">
+            <h3>Grey Hoddie</h3>
+            <h3>$20,00</h3>
+            <a class="add-cart cart2" href="#">Add Cart</a>
+            <input type="hidden" value="20" />
+        </div>
+
+        <div class="image">
+            <img src="https://target.scene7.com/is/image/Target/GUEST_ac062f02-32b4-4917-9290-5e8881c11ddc" wid0th="250px" height="250px" alt="thsirt1">
+            <h3>Black Hoddie</h3>
+            <h3>$25,00</h3>
+            <a class="add-cart cart2" href="#">Add Cart</a>
+            <input type="hidden" value="20" />
+        </div>
+
+        <div class="image">
+            <img src="https://cdn.shopify.com/s/files/1/2290/7887/products/F0352106901_3.jpg?v=1664174286" width="250px" height="250px" alt="thsirt1">
+            <h3>Black Tshirt</h3>
+            <h3>$10,00</h3>
+            <a class="add-cart cart2" href="#">Add Cart</a>
+            <input type="hidden" value="15" />
+        </div>
+
+
+
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="image">
+        <img src="https://www.kayazar.com/images/product_gallery/1649727170_Absolutely-not-T-shirts-007-grey.webp" width="250px" height="250px" alt="thsirt1">
+        <h3>Grey Tshirt</h3>
+        <h3>$15,00</h3>
+        <a class="add-cart cart2" href="#">Add Cart</a>
+        <input type="hidden" value="15" />
+    </div>
+
+    <div class="image">
+        <img src="data:image/jpeg;base64,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" width="250px" height="250px" alt="thsirt1">
+        <h3>Grey Hoddie</h3>
+        <h3>$20,00</h3>
+        <a class="add-cart cart2" href="#">Add Cart</a>
+        <input type="hidden" value="20" />
+    </div>
+
+    <div class="image">
+        <img src="https://target.scene7.com/is/image/Target/GUEST_ac062f02-32b4-4917-9290-5e8881c11ddc" wid0th="250px" height="250px" alt="thsirt1">
+        <h3>Black Hoddie</h3>
+        <h3>$25,00</h3>
+        <a class="add-cart cart2" href="#">Add Cart</a>
+        <input type="hidden" value="20" />
+    </div>
+
+    <div class="image">
+        <img src="https://cdn.shopify.com/s/files/1/2290/7887/products/F0352106901_3.jpg?v=1664174286" width="250px" height="250px" alt="thsirt1">
+        <h3>Black Tshirt</h3>
+        <h3>$10,00</h3>
+        <a class="add-cart cart2" href="#">Add Cart</a>
+        <input type="hidden" value="15" />
+    </div>
+
+
+
+</div>
+</div>
+
+
+
+<div class="container">
+    <div class="image">
+        <img src="https://www.kayazar.com/images/product_gallery/1649727170_Absolutely-not-T-shirts-007-grey.webp" width="250px" height="250px" alt="thsirt1">
+        <h3>Grey Tshirt</h3>
+        <h3>$15,00</h3>
+        <a class="add-cart cart2" href="#">Add Cart</a>
+        <input type="hidden" value="15" />
+    </div>
+
+    <div class="image">
+        <img src="data:image/jpeg;base64,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" width="250px" height="250px" alt="thsirt1">
+        <h3>Grey Hoddie</h3>
+        <h3>$20,00</h3>
+        <a class="add-cart cart2" href="#">Add Cart</a>
+        <input type="hidden" value="20" />
+    </div>
+
+    <div class="image">
+        <img src="https://target.scene7.com/is/image/Target/GUEST_ac062f02-32b4-4917-9290-5e8881c11ddc" wid0th="250px" height="250px" alt="thsirt1">
+        <h3>Black Hoddie</h3>   
+        <h3>$25,00</h3>
+        <a class="add-cart cart2" href="#">Add Cart</a>
+        <input type="hidden" value="20" />
+    </div>
+
+    <div class="image">
+        <img src="https://cdn.shopify.com/s/files/1/2290/7887/products/F0352106901_3.jpg?v=1664174286" width="250px" height="250px" alt="thsirt1">
+        <h3>Black Tshirt</h3>
+        <h3>$10,00</h3>
+        <a class="add-cart cart2" href="#">Add Cart</a>
+        <input type="hidden" value="15" />
+    </div>
+
+
+
+</div>
+</div>
+    
+</body>
+</html>
